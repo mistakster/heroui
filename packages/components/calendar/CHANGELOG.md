@@ -1,5 +1,18 @@
 # @heroui/calendar
 
+## 2.2.11
+
+### Patch Changes
+
+- [#4614](https://github.com/heroui-inc/heroui/pull/4614) [`cddba82`](https://github.com/heroui-inc/heroui/commit/cddba8281cb161d0a8afb42e20c05094974af981) Thanks [@wingkwong](https://github.com/wingkwong)! - function components cannot be given refs in calendar (#4606)
+
+- Updated dependencies [[`66efa0a`](https://github.com/heroui-inc/heroui/commit/66efa0a08efa96c884829bb38325ec4c799c6e22)]:
+  - @heroui/shared-utils@2.1.4
+  - @heroui/button@2.2.11
+  - @heroui/use-aria-button@2.2.6
+  - @heroui/framer-utils@2.1.8
+  - @heroui/react-utils@2.1.5
+
 ## 2.2.10
 
 ### Patch Changes
