@@ -1,6 +1,6 @@
 import {heroui} from "@heroui/theme/plugin";
 
-/** @type {import('tailwindcss').Config} */
+/** @type {import("tailwindcss").Config} */
 export default {
   content: [
     "./.storybook/welcome.mdx",
@@ -15,6 +15,34 @@ export default {
     heroui({
       addCommonColors: true,
       themes: {
+        light: {
+          extend: "light",
+          layout: {
+            /*
+            borderWidth: {
+              small: "1px", // border-small
+              medium: "1px", // border-medium (default)
+              large: "1px", // border-large
+            },
+             */
+          },
+          colors: {
+            primary: {
+              DEFAULT: "#c57e09",
+              50: "#FCF1CB",
+              100: "#FCF1CB",
+              200: "#F9E09A",
+              300: "#EDC465",
+              400: "#DCA63E",
+              500: "#C57E09",
+              600: "#A96506",
+              700: "#8D4F04",
+              800: "#723B02",
+              900: "#5E2D01",
+              foreground: "white",
+            },
+          },
+        },
         // "dark": {
         //   extend: "dark", // <- inherit default values from dark theme
         //   colors: {
